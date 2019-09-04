@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url("fundo.jpg");
+        }
+        .loginBox
+        {
+            margin-left: 750px;
+            margin-top: 100px;
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 225px;
+            padding: 100px;
+            background-color: white;
+        }
+        #entrar
+        {
+            width: 90px;
+        }
+        #cadastrar
+        {
+            width: 90px;
+            margin-left: 40px;
+        }
+        input
+        {
+            width: 220px;
+        }
+        #esqueceuSenha
+        {
+            margin-top: 70px;            
+        }
+        #cliqueAqui
+        {
+            color: rgb(18, 120, 253);
+        }
+        img
+        {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loginBox">
+        <img src="icon.png">
+        <h2>Entre com seus dados</h2>
+        <form action="sla.html">
+            <p><input type="text" name="login" placeholder="Login"></p>
+            <p><input type="password" name="senha" placeholder="Senha"></p>
+            <button id="entrar">Entrar</button>           
+            <button id="cadastrar"><a href="numsei.html">Cadastrar</a></button>
+        </form>
+        <p id="esqueceuSenha">Esqueceu sua senha? <b id = "cliqueAqui"><a href="esqueceu.php">Clique aqui!</a></b></p>
+    </div>
+</body>
+</html>
